@@ -1,0 +1,41 @@
+================================================================================
+COMPUTER NAME – SYSTEM HIVE
+================================================================================
+
+Hive: SYSTEM
+Path: SYSTEM\ControlSet001\Control\ComputerName\ComputerName
+Value Name: ComputerName
+Data: WESMANTOTOP-PC
+
+================================================================================
+Alternate Name (Active Computer Name):
+Path: SYSTEM\ControlSet001\Control\ComputerName\ActiveComputerName
+Value Name: ComputerName
+Data: WESMANTOTOP-PC
+
+================================================================================
+
+================================================================================
+TIME ZONE INFORMATION – SYSTEM HIVE
+================================================================================
+
+Hive: SYSTEM
+Path: SYSTEM\ControlSet001\Control\TimeZoneInformation
+
+Key Value Pairs:
+| Value Name | Data | Interpretation |
+|------------|------|----------------|
+| Bias | 420 (RegDword) | 7 hours behind UTC |
+| ActiveTimeBias | 360 (RegDword) | 6 hours behind UTC (during DST) |
+| StandardName | @tzres.dll, -192 | Standard time display string |
+| DaylightName | @tzres.dll, -191 | Daylight saving time display string |
+| StandardStart | Binary data | DST transition rules |
+| DaylightStart | Binary data | DST transition rules |
+
+Time Zone: Mountain Time (US & Canada)
+UTC Offset: UTC-7 (Standard) / UTC-6 (Daylight Saving)
+
+Cross-reference: This matches the America/Denver timezone configured in Autopsy during case creation.
+================================================================================
+
+
