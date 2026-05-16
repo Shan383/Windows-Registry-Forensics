@@ -1,0 +1,37 @@
+================================================================================
+USER PROFILES – REGISTRY ENUMERATION
+================================================================================
+
+Source: SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
+
+Profiles Found:
+================================================================================
+1. Profile Path: C:\Users\Wes Mantooth
+   SID: S-1-5-21-3166329-3263506726-1320359247-1000
+   Status: Active
+   Last Write: 2007-03-07
+
+2. Profile Path: C:\Users\dracula
+   SID: S-1-5-21-3166329-3263506726-1320359247-1002
+   Status: Active (never logged in)
+   Last Write: 2007-03-06
+
+3. Profile Path: C:\Users\Laurent
+   SID: S-1-5-21-3166329-3263506726-1320359247-1003
+   Status: Active (created 2008-02-12)
+   Last Write: 2008-02-12
+
+4. Profile Path: C:\Users\Administrator (built-in)
+   SID: S-1-5-21-3166329-3263506726-1320359247-500
+   Status: Disabled (default)
+
+5. Profile Path: C:\Users\Default (built-in)
+   SID: N/A
+   Status: Template only
+
+================================================================================
+Suspicious Observation:
+- Account "Laurent" created on 2008-02-12 – less than 24 hours before system was imaged
+- Potential "burner" account created to obscure activity
+- Should be prioritized for investigation
+================================================================================
