@@ -1,0 +1,7 @@
+Username,Account Type,SID,Created Date,Last Login Date,Password Hint,Last Password Reset,Login Count,Status
+Wes Mantooth,Administrator,S-1-5-21-3166329-3263506726-1320359247-1000,2007-02-27,2007-03-07 19:00:11,None,2007-02-27,47,Active
+dracula,Standard,S-1-5-21-3166329-3263506726-1320359247-1002,2007-03-06,Never,None,2007-03-06,0,Active (never logged in)
+Laurent,Standard,S-1-5-21-3166329-3263506726-1320359247-1003,2008-02-12,Never,None,2008-02-12,0,Active (created just before imaging)
+SYSTEM,Local System,S-1-5-18,N/A,N/A,N/A,N/A,N/A,Always active
+LOCAL SERVICE,Service Account,S-1-5-19,N/A,N/A,N/A,N/A,N/A,Always active
+NETWORK SERVICE,Service Account,S-1-5-20,N/A,N/A,N/A,N/A,N/A,Always active
